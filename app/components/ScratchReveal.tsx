@@ -70,7 +70,7 @@ export default function ScratchReveal() {
         />
       )}
 
-      <div className="relative w-full max-w-[700px]">
+      <div className="relative w-[95vw] max-w-[700px] mx-auto">
 
         {/* Background */}
         <Image
@@ -86,15 +86,15 @@ export default function ScratchReveal() {
   onClick={() => setRevealed(true)}
   className="absolute cursor-pointer flex items-center justify-center"
   style={{
-    left: "50px",
-    top: "470px",
-    width: "85%",
-    height: "150px",
-    transform: "translateX(-50%)",
+    left: "50%",
+    top: "42%",
+    width: "86%",
+    height: "12px",
+    transform: "translateX(-50% , -50%)",
   }}
 >
   {!revealed ? (
-    <h2 className="text-4xl italic font-serif animate-pulse">
+    <h2 className="text-2xl md:text-4xl italic font-serif animate-pulse text-center">
       Tap To Reveal
     </h2>
   ) : (
@@ -108,7 +108,7 @@ export default function ScratchReveal() {
           <div
             className="absolute w-full animate-fadeIn"
             style={{
-              top: "730px",
+              top: "78%",
             }}
           >
             <div className="grid grid-cols-4 text-center px-12">
