@@ -70,7 +70,7 @@ export default function ScratchReveal() {
         />
       )}
 
-      <div className="relative w-[700px]">
+      <div className="relative w-full max-w-[700px]">
 
         {/* Background */}
         <Image
@@ -88,8 +88,9 @@ export default function ScratchReveal() {
   style={{
     left: "50px",
     top: "470px",
-    width: "600px",
+    width: "85%",
     height: "150px",
+    transform: "translateX(-50%)",
   }}
 >
   {!revealed ? (
@@ -97,8 +98,7 @@ export default function ScratchReveal() {
       Tap To Reveal
     </h2>
   ) : (
-    <h2 className="text-5xl font-serif text-[#B79B5B] animate-fadeIn">
-      04 December 2026
+    <h2 className="text-3xl md:text-5xl font-serif text-[#B79B5B] animate-fadeIn">
     </h2>
   )}
 </div>
@@ -108,34 +108,34 @@ export default function ScratchReveal() {
           <div
             className="absolute w-full animate-fadeIn"
             style={{
-              top: "800px",
+              top: "730px",
             }}
           >
             <div className="grid grid-cols-4 text-center px-12">
 
               <div>
-                <h3 className="text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.days}
                 </h3>
                 <p>Days</p>
               </div>
 
               <div>
-                <h3 className="text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.hours}
                 </h3>
                 <p>Hours</p>
               </div>
 
               <div>
-                <h3 className="text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.minutes}
                 </h3>
                 <p>Minutes</p>
               </div>
 
               <div>
-                <h3 className="text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.seconds}
                 </h3>
                 <p>Seconds</p>
