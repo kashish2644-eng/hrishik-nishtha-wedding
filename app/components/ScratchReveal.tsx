@@ -94,7 +94,7 @@ export default function ScratchReveal() {
   }}
 >
   {!revealed ? (
-    <h2 className="text-2xl md:text-4xl italic font-serif animate-pulse text-center">
+    <h2 className="w-full text-center text-xl md:text-4xl italic font-serif animate-pulse">
       Tap To Reveal
     </h2>
   ) : (
@@ -108,37 +108,37 @@ export default function ScratchReveal() {
           <div
             className="absolute w-full animate-fadeIn"
             style={{
-              top: "78%",
+              top: "68%",
             }}
           >
-            <div className="grid grid-cols-4 text-center px-12">
+            <div className="grid grid-cols-4 text-center px-4 md:px-12">
 
               <div>
-                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.days}
                 </h3>
-                <p>Days</p>
+                <p className="text-xs md:text-base">Days</p>
               </div>
 
               <div>
-                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.hours}
                 </h3>
-                <p>Hours</p>
+                <p className="text-xs md:text-base">Hours</p>
               </div>
 
               <div>
-                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.minutes}
                 </h3>
-                <p>Minutes</p>
+                <p className="text-xs md:text-base">Minutes</p>
               </div>
 
               <div>
-                <h3 className="text-3xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
                   {timeLeft.seconds}
                 </h3>
-                <p>Seconds</p>
+                <p className="text-xs md:text-base">Seconds</p>
               </div>
 
             </div>
