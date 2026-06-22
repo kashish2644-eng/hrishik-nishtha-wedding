@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import OpeningScreen from "./components/OpeningScreen";
 import ScratchReveal from "./components/ScratchReveal";
@@ -15,11 +15,20 @@ import Venue from "./components/Venue";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+
+const handleOpen = () => {
+  if (audioRef.current) {
+    audioRef.current.play();
+  }
+
+  setOpened(true);
+};
 
   return (
     <main className="bg-[#F7F3EE] min-h-screen">
       {!opened && (
-        <OpeningScreen onOpen={() => setOpened(true)} />
+        <OpeningScreen onOpen={handleOpen} />
       )}
 
       {opened && (
@@ -44,8 +53,16 @@ export default function Home() {
     <Varmala />
     <Phera />
     <Venue />
-  </>
+     </>
       )}
+
+      <audio ref={audioRef} loop>
+        <source
+          src="/music/Kesariya - Brahmāstra Soulful Flute Cover Divyansh Shrivastava Ranbir , Alia Arijit Singh.mp3"
+          type="audio/mpeg"
+        />
+      </audio>
+
     </main>
   );
 }
