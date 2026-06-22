@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function SangeetPrototype() {
   return (
-    <div className="relative flex justify-center overflow-hidden">
+    <div className="relative flex justify-center py-4 overflow-hidden">
 
       {/* Background */}
       <div className="relative w-[95vw] max-w-[700px]">
