@@ -1,11 +1,11 @@
 import Image from "next/image";
 
-export default function Myra() {
+export default function Barat() {
   return (
     <div className="flex justify-center py-4">
       <Image
         src="/images/barat.png"
-        alt="Myra"
+        alt="Barat"
         width={1080}
         height={1920}
         className="w-full max-w-[700px] h-auto"
