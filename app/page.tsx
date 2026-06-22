@@ -5,6 +5,12 @@ import Image from "next/image";
 import OpeningScreen from "./components/OpeningScreen";
 import ScratchReveal from "./components/ScratchReveal";
 import WelcomeLunch from "./components/WelcomeLunch";
+import Myra from "./components/Myra";
+import Sangeet from "./components/Sangeet";
+import Carnival from "./components/Carnival";
+import Barat from "./components/Barat";
+import Varmala from "./components/Varmala";
+import Phera from "./components/Phera";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
