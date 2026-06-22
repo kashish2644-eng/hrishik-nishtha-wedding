@@ -87,10 +87,10 @@ export default function ScratchReveal() {
   className="absolute cursor-pointer flex items-center justify-center"
   style={{
     left: "50%",
-    top: "42%",
+    top: "33%",
     width: "86%",
-    height: "12px",
-    transform: "translateX(-50% , -50%)",
+    height: "12%",
+    transform: "translate(-50%, -50%)",
   }}
 >
   {!revealed ? (
