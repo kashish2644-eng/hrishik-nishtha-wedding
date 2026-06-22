@@ -11,6 +11,7 @@ import Carnival from "./components/Carnival";
 import Barat from "./components/Barat";
 import Varmala from "./components/Varmala";
 import Phera from "./components/Phera";
+import Venue from "./components/Venue";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -42,6 +43,7 @@ export default function Home() {
     <Barat />
     <Varmala />
     <Phera />
+    <Venue />
   </>
       )}
     </main>
