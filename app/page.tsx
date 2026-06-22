@@ -17,7 +17,7 @@ export default function Home() {
 
       {opened && (
   <>
-    <div className="flex justify-center  invitation-reveal">
+    <div className="flex justify-center py-4 invitation-reveal">
       <Image
         src="/images/invitation.png"
         alt="Invitation"
