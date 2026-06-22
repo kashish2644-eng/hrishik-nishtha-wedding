@@ -58,7 +58,7 @@ const handleOpen = () => {
 
       <audio ref={audioRef} loop>
         <source
-          src="/music/Kesariya - Brahmāstra Soulful Flute Cover Divyansh Shrivastava Ranbir , Alia Arijit Singh.mp3"
+         src="/music/wedding.mp3"
           type="audio/mpeg"
         />
       </audio>
