@@ -121,37 +121,37 @@ export default function ScratchReveal() {
           <div
             className="absolute w-full animate-fadeIn"
             style={{
-              top: "68%",
+              top: "60%",
             }}
           >
-            <div className="grid grid-cols-4 text-center px-4 md:px-12">
+            <div className="grid grid-cols-4 text-center px-6 md:px-12">
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
                   {timeLeft.days}
                 </h3>
-                <p className="text-xs md:text-base">Days</p>
-              </div>
+                <p className="text-[#A8842E] text-xs md:text-base font-medium"> Days</p>
+                </div>
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
                   {timeLeft.hours}
                 </h3>
-                <p className="text-xs md:text-base">Hours</p>
+                <p className="text-[#A8842E] text-xs md:text-base font-medium">Hours</p>
               </div>
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
                   {timeLeft.minutes}
                 </h3>
-                <p className="text-xs md:text-base">Minutes</p>
+                <p className="text-[#A8842E] text-xs md:text-base font-medium">Minutes</p>
               </div>
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#B79B5B]">
+                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
                   {timeLeft.seconds}
                 </h3>
-                <p className="text-xs md:text-base">Seconds</p>
+                 <p className="text-[#A8842E] text-xs md:text-base font-medium">Seconds</p>
               </div>
 
             </div>
