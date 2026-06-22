@@ -4,7 +4,6 @@ import { useState } from "react";
 import Image from "next/image";
 import OpeningScreen from "./components/OpeningScreen";
 import ScratchReveal from "./components/ScratchReveal";
-import SangeetPrototype from "./components/SangeetPrototype";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -29,7 +28,6 @@ export default function Home() {
     </div>
 
     <ScratchReveal />
-    <SangeetPrototype />
   </>
       )}
     </main>
