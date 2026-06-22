@@ -94,7 +94,7 @@ export default function ScratchReveal() {
   }}
 >
   {!revealed ? (
-    <h2 className="w-full text-center text-xl md:text-4xl italic font-serif animate-pulse text-[#2B2B2B]">
+    <h2 className="w-full text-center text-2xl md:text-4xl italic font-serif animate-pulse text-[#2B2B2B]">
       Tap To Reveal
     </h2>
   ) : (
