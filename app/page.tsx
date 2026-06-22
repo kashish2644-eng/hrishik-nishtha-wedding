@@ -30,6 +30,12 @@ export default function Home() {
 
     <ScratchReveal />
     <WelcomeLunch />
+    <Myra />
+    <Sangeet />
+    <Carnival />
+    <Barat />
+    <Varmala />
+    <Phera />
   </>
       )}
     </main>
