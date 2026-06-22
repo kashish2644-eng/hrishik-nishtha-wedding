@@ -87,14 +87,14 @@ export default function ScratchReveal() {
   className="absolute cursor-pointer flex items-center justify-center"
   style={{
     left: "50%",
-    top: "33%",
+    top: "39%",
     width: "86%",
     height: "12%",
     transform: "translate(-50%, -50%)",
   }}
 >
   {!revealed ? (
-    <h2 className="w-full text-center text-xl md:text-4xl italic font-serif animate-pulse">
+    <h2 className="w-full text-center text-xl md:text-4xl italic font-serif animate-pulse text-[#2B2B2B]">
       Tap To Reveal
     </h2>
   ) : (
