@@ -98,7 +98,6 @@ export default function ScratchReveal() {
       Tap To Reveal
     </h2>
   ) : (
-    ) : (
   <h2 className="text-3xl md:text-5xl font-serif text-[#A8842E] animate-fadeIn">
     04 December 2026
   </h2>
