@@ -127,31 +127,31 @@ export default function ScratchReveal() {
             <div className="grid grid-cols-4 text-center px-6 md:px-12">
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
+                <h3 className="text-2xl md:text-6xl font-bold text-[#A8842E]">
                   {timeLeft.days}
                 </h3>
-                <p className="text-[#A8842E] text-xs md:text-base font-medium"> Days</p>
+                <p className="text-black text-sm md:text-3xl font-medium"> Days</p>
                 </div>
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
+                <h3 className="text-2xl md:text-6xl font-bold text-[#A8842E]">
                   {timeLeft.hours}
                 </h3>
-                <p className="text-[#A8842E] text-xs md:text-base font-medium">Hours</p>
+                <p className="text-black text-sm md:text-3xl font-medium">Hours</p>
               </div>
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
+                <h3 className="text-2xl md:text-6xl font-bold text-[#A8842E]">
                   {timeLeft.minutes}
                 </h3>
-                <p className="text-[#A8842E] text-xs md:text-base font-medium">Minutes</p>
+                <p className="text-black text-sm md:text-3xl font-medium">Minutes</p>
               </div>
 
               <div>
-                <h3 className="text-2xl md:text-5xl font-bold text-[#A8842E]">
+                <h3 className="text-2xl md:text-6xl font-bold text-[#A8842E]">
                   {timeLeft.seconds}
                 </h3>
-                 <p className="text-[#A8842E] text-xs md:text-base font-medium">Seconds</p>
+                 <p className="text-black text-sm md:text-3xl font-medium">Seconds</p>
               </div>
 
             </div>
