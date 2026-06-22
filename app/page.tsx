@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import OpeningScreen from "./components/OpeningScreen";
 import ScratchReveal from "./components/ScratchReveal";
+import WelcomeLunch from "./components/WelcomeLunch";
 
 export default function Home() {
   const [opened, setOpened] = useState(false);
@@ -28,6 +29,7 @@ export default function Home() {
     </div>
 
     <ScratchReveal />
+    <WelcomeLunch />
   </>
       )}
     </main>
