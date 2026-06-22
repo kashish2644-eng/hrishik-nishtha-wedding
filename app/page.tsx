@@ -19,6 +19,7 @@ export default function Home() {
 
 const handleOpen = () => {
   if (audioRef.current) {
+    audioRef.current.currentTime = 9;
     audioRef.current.play();
   }
 
@@ -56,7 +57,7 @@ const handleOpen = () => {
      </>
       )}
 
-      <audio ref={audioRef} loop>
+      <audio ref={audioRef} loop preload="auto">
         <source
          src="/music/wedding.mp3"
           type="audio/mpeg"
