@@ -151,3 +151,18 @@ body {
 .animate-sway {
   animation: sway 8s ease-in-out infinite;
 }
+@keyframes welcomeReveal {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.welcome-reveal {
+  animation: welcomeReveal 1.2s ease forwards;
+}
