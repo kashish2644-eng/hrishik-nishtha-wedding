@@ -89,7 +89,7 @@ export default function ScratchReveal() {
     left: "50%",
     top: "43%",
     width: "86%",
-    height: "12%",
+    height: "25%",
     transform: "translate(-50%, -50%)",
   }}
 >
