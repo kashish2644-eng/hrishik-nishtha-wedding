@@ -81,7 +81,7 @@ export default function ScratchReveal() {
           className="w-full h-auto"
         />
 
-        {/* Reveal Pill */}
+       {/* Reveal Pill */}
 <div
   onClick={() => setRevealed(true)}
   className="absolute cursor-pointer flex items-center justify-center"
@@ -89,21 +89,33 @@ export default function ScratchReveal() {
     left: "50%",
     top: "43%",
     width: "86%",
-    height: "25%",
+    height: "12%",
     transform: "translate(-50%, -50%)",
   }}
 >
-  {!revealed ? (
+  {!revealed && (
     <h2 className="w-full text-center text-2xl md:text-4xl italic font-serif animate-pulse text-[#2B2B2B]">
       Tap To Reveal
     </h2>
-  ) : (
- <h2 className="text-4xl font-bold text-red-600">
-  TEST DATE
-</h2>
-)}
+  )}
 </div>
 
+{revealed && (
+  <div
+    className="absolute flex items-center justify-center z-50"
+    style={{
+      left: "50%",
+      top: "43%",
+      width: "86%",
+      height: "12%",
+      transform: "translate(-50%, -50%)",
+    }}
+  >
+    <h2 className="text-3xl md:text-5xl font-serif text-[#A8842E] animate-fadeIn">
+      04 December 2026
+    </h2>
+  </div>
+)}
         {/* Countdown */}
         {showCountdown && (
           <div
