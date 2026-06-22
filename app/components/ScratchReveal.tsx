@@ -102,7 +102,6 @@ export default function ScratchReveal() {
   TEST DATE
 </h2>
 )}
-  )}
 </div>
 
         {/* Countdown */}
