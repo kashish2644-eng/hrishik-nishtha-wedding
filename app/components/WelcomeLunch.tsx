@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WelcomeLunch() {
   return (
-    <div className="flex justify-center py-10">
+    <div className="flex justify-center">
       <Image
         src="/images/welcomelunch.png"
         alt="Welcome Lunch"
