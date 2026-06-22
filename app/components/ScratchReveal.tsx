@@ -54,7 +54,7 @@ export default function ScratchReveal() {
   }, [showCountdown]);
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center py-4">
 
       {showConfetti && (
         <Confetti
