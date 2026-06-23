@@ -166,3 +166,52 @@ body {
 .welcome-reveal {
   animation: welcomeReveal 1.2s ease forwards;
 }
+@keyframes floatingParticles {
+  0% {
+    transform: translateY(0px);
+    opacity: 0.3;
+  }
+
+  50% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+}
+
+.particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #d4af37;
+  border-radius: 50%;
+  animation: floatingParticles 6s infinite ease-in-out;
+}
+
+.particle:nth-child(1) {
+  left: 15%;
+  bottom: 10%;
+  animation-delay: 0s;
+}
+
+.particle:nth-child(2) {
+  left: 35%;
+  bottom: 5%;
+  animation-delay: 2s;
+}
+
+.particle:nth-child(3) {
+  left: 60%;
+  bottom: 15%;
+  animation-delay: 1s;
+}
+
+.particle:nth-child(4) {
+  left: 80%;
+  bottom: 8%;
+  animation-delay: 3s;
+}
